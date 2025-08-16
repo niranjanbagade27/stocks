@@ -1,0 +1,20 @@
+{
+  "stocks": [
+    "RELIANCE",
+    "TCS",
+    "HDFCBANK"
+  ],
+  "years": {
+    "start": 2014,
+    "end": 2024
+  },
+  "settings": {
+    "headless": false,
+    "downloadTimeout": 5000,
+    "pageTimeout": 10000,
+    "waitBetweenStocks": 2000,
+    "waitBetweenYears": 1000,
+    "maxRetries": 1,
+    "retryDelay": 3000
+  }
+}

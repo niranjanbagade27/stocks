@@ -1,0 +1,27 @@
+{
+  "name": "nse-api-scraper",
+  "version": "1.0.0",
+  "description": "Fast NSE India stock data downloader using direct API calls",
+  "main": "api-scraper.js",
+  "scripts": {
+    "start": "node api-scraper.js all",
+    "test": "node api-scraper.js test",
+    "single": "node api-scraper.js single",
+    "config": "node config-manager.js",
+    "config:list": "node config-manager.js list",
+    "config:reset": "node config-manager.js reset"
+  },
+  "keywords": [
+    "nse",
+    "api",
+    "stocks",
+    "india",
+    "data",
+    "historical"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
